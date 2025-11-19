@@ -1,1 +1,4 @@
-Flask==2.3.2
+google-genai
+Flask
+requests
+gunicorn  # 新增 gunicorn
