@@ -1,5 +1,6 @@
-# 使用一個更完整的 Debian 映像檔作為基礎
-FROM python:3.12-slim-buster
+
+# 使用標準且穩定的 Python slim 映像檔 (基於 Debian Bookworm, Debian 12)
+FROM python:3.12-slim
 
 # 設定環境變數，啟用非互動模式
 ENV DEBIAN_FRONTEND=noninteractive
